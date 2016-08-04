@@ -1,9 +1,10 @@
-# First Chapter
+# package相关
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+关于包的安装，卸载，搜索，调用
+## 安装
+安装分为全局和和本地安装
+全局安装：npm install --global xxx
+本地安装：npm install xxx
 
-## first paragraph
-content
-## second
-content
-### third
+## 设置NODE_PATH
+
