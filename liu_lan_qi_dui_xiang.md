@@ -43,3 +43,16 @@ window对象方法:
 </html>
 ```
 
+## History 对象
+
+History 对象属性
+
+![](http://img.imooc.com/53548c030001759e05840068.jpg)
+
+
+History 对象方法
+
+![](http://img.imooc.com/53548c200001228206210123.jpg)
+
+ 
+ <a href="#target1">第一个锚点</a>
