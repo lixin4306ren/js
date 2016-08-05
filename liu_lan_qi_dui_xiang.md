@@ -17,16 +17,29 @@ window对象方法:
 计时器方法：  
 ![](http://img.imooc.com/56976e1700014fc504090143.jpg)
 
-我们设置一个计时器，每隔100毫秒调用clock()函数，并将时间显示出来，代码如下:
-
+我们设置一个计时器，每隔 100 毫秒调用 clock() 函数,并显示时间。当点击按钮时，停止时间,代码如下:
 
 ```
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>计时器</title>
 <script type="text/javascript">
-  var int=setInterval(clock, 100)
-  function clock(){
-    var time=new Date();
-    document.getElementById("clock").value = time;
-  }
+   function clock(){
+      var time=new Date();                     
+      document.getElementById("clock").value = time;
+   }
+// 每隔100毫秒调用clock函数，并将返回值赋值给i
+     var i=setInterval("clock()",100);
 </script>
+</head>
+<body>
+  <form>
+    <input type="text" id="clock" size="50"  />
+    <input type="button" value="Stop" onclick="clearInterval(i)"  />
+  </form>
+</body>
+</html>
 ```
 
