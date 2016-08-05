@@ -56,3 +56,6 @@ History 对象方法
 
  
  <a href="#target1">第一个锚点</a>
+
+
+<a name="target1"></a>
