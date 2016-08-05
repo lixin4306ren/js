@@ -55,7 +55,5 @@ History 对象方法
 ![](http://img.imooc.com/53548c200001228206210123.jpg)
 
  
- <a href="#target1">第一个锚点</a>
 
 
-<a name="target1"></a>
