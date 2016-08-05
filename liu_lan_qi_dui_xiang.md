@@ -55,5 +55,19 @@ History 对象方法
 ![](http://img.imooc.com/53548c200001228206210123.jpg)
 
  
+参数：
+
+![](http://img.imooc.com/5354947e00011a9a06490153.jpg)
 
 
+## Location对象
+
+location用于获取或设置窗体的URL，并且可以用于解析URL。
+
+
+location 对象属性：
+![](http://img.imooc.com/5354b1d00001c4ec06220271.jpg)
+
+location 对象方法:
+
+![](http://img.imooc.com/5354b1eb00016a2405170126.jpg)
