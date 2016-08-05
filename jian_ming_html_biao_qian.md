@@ -129,9 +129,85 @@ HTML `<span>` 元素是内联元素，可用作文本的容器。
 当与 CSS 一同使用时，`<span>` 元素可用于为部分文本设置样式属性。
 
 
+## 表单和输入
+表单是一个包含表单元素的区域。
+表单元素是允许用户在表单中（比如：文本域、下拉列表、单选框、复选框等等）输入信息的元素。
+表单使用表单标签`<form>`定义。
+
+```
+<form>
+...
+  input 元素
+...
+</form>
+```
+
+多数情况下被用到的表单标签是输入标签`<input>`。输入类型是由类型属性（type）定义的。大多数经常被用到的输入类型如下：
+
+### 文本域（Text Fields）
+```
+<form>
+First name: 
+<input type="text" name="firstname" />
+<br />
+Last name: 
+<input type="text" name="lastname" />
+</form>
+```
+
+### 单选按钮（Radio Buttons）
+```
+<form>
+<input type="radio" name="sex" value="male" /> Male
+<br />
+<input type="radio" name="sex" value="female" /> Female
+</form>
+```
+### 复选框（Checkboxes）
+```
+<form>
+<input type="checkbox" name="bike" />
+I have a bike
+<br />
+<input type="checkbox" name="car" />
+I have a car
+</form>
+```
+
+### 下拉菜单
+```
+<form>
+<select name="cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+</form>
+```
 
 
+### 多行文本框
+```
+<textarea rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+```
 
+### 按钮
+```
+<form>
+<input type="button" value="Hello world!">
+</form>
+```
+
+### label标签
+label 元素不会向用户呈现任何特殊效果。不过，它为鼠标用户改进了可用性。如果您在 label 元素内点击文本，就会触发此控件。就是说，当用户选择该标签时，浏览器就会自动将焦点转到和标签相关的表单控件上。
+```
+<form>
+  <label for="male">Male</label>
+</form>
+```
 
 
 
