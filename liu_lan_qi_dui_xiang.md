@@ -71,3 +71,19 @@ location 对象属性：
 location 对象方法:
 
 ![](http://img.imooc.com/5354b1eb00016a2405170126.jpg)
+
+## Navigator对象
+
+Navigator 对象包含有关浏览器的信息，通常用于检测浏览器与操作系统的版本。
+
+
+![](http://img.imooc.com/5354cff70001428b06880190.jpg)
+
+## screen对象
+screen对象用于获取用户的屏幕信息。  
+对象属性: 
+
+
+![](http://img.imooc.com/5354d2810001a47706210213.jpg)
+
+
