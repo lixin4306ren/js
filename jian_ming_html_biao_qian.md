@@ -55,7 +55,15 @@ target属性
 `<a href="http://www.w3school.com.cn/" target="_blank">Visit W3School!</a>`
 
 name 属性  
-`<a name="tips">基本的注意事项 - 有用的提示</a>`  
+```
+<a name="tips">基本的注意事项 - 有用的提示</a>
+<a href="#tips">有用的提示</a>
+```
+
+<a name="tips">基本的注意事项 - 有用的提示</a>  
+
+
+
 <a href="#tips">有用的提示</a>
 
 
