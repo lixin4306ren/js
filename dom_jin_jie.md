@@ -82,12 +82,18 @@
 说明：如果无此节点，则该属性返回 null。
 
 
-## 其他节点操作
+## 创建节点
 
 ### 创建元素节点createElement
 `document.createElement(tagName)`  
 
+### 创建文本节点createTextNode
+`document.createTextNode(data)`  
 
+
+
+
+## 插入节点
 ### 插入节点appendChild(newnode)
 
 ```
@@ -110,7 +116,7 @@
 `insertBefore(newnode, node)` 方法可在已有的子节点前插入一个新的子节点。
 
 
-### 删除节点removeChild()
+## 删除节点removeChild()
 
 `nodeObject.removeChild(node)`  
 
@@ -135,7 +141,7 @@ function clearText() {
 </script>
 ```
 
-### 替换元素节点replaceChild()
+## 替换元素节点replaceChild()
 
 `node.replaceChild (newnode,oldnew )`  
 
