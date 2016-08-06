@@ -84,6 +84,10 @@
 
 ## 其他节点操作
 
+### 创建元素节点createElement
+`document.createElement(tagName)`  
+
+
 ### 插入节点appendChild(newnode)
 
 ```
