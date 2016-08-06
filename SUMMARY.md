@@ -8,5 +8,5 @@
 * [内建对象](dui_xiang.md)
 * [浏览器对象](liu_lan_qi_dui_xiang.md)
 * [DOM相关](domxiang_guan.md)
-   * 简单认识DOM
+   * [简单认识DOM](jian_dan_ren_shi_dom.md)
 
