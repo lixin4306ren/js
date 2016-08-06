@@ -131,6 +131,32 @@ function clearText() {
 </script>
 ```
 
+### 替换元素节点replaceChild()
+
+`node.replaceChild (newnode,oldnew )`  
+
+注意: 
+
+1. 当 oldnode 被替换时，所有与之相关的属性内容都将被移除。 
+
+2. newnode 必须先被建立。 
+
+只有父结点才能调用  replaceChild(newnode,oldnode).这个方法，所以，要想替换当前结点的内容或者属性，那么首先得获得父节点，才可以操作，这就是为什么 oldnode.parentNode.replaceChild(newnode,oldnode); 这句代码的写法。
+
+```
+<div><b id="oldnode">JavaScript</b>是一个很常用的技术，为网页添加动态效果。</div>
+  <a href="javascript:replaceMessage()"> 将加粗改为斜体</a>
+  
+    <script type="text/javascript">
+      function replaceMessage(){
+       var test = document.getElementById("oldnode");
+       var newnode=document.createElement("i");
+       newnode.innerHTML="JavaScript";
+       oldnode.parentNode.replaceChild(newnode,oldnode);
+		   
+       }    
+  </script>
+```
 
 
 
