@@ -7,7 +7,7 @@
 * [事件响应](shi_jian_xiang_ying.md)
 * [内建对象](dui_xiang.md)
 * [浏览器对象](liu_lan_qi_dui_xiang.md)
-* document对象
+* [document对象](documentdui_xiang.md)
 * [DOM相关](domxiang_guan.md)
    * [简单认识DOM](jian_dan_ren_shi_dom.md)
    * [DOM进阶](dom_jin_jie.md)
