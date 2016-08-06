@@ -11,5 +11,5 @@
 * [DOM相关](domxiang_guan.md)
    * [简单认识DOM](jian_dan_ren_shi_dom.md)
    * [DOM进阶](dom_jin_jie.md)
-* [Node.js](nodejs.md)
+* [Node.js安装](nodejs.md)
 
