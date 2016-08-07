@@ -160,7 +160,7 @@ ridge: 定义3D脊边界。效果取决于边界的颜色值
 inset:定义一个3D的嵌入边框。效果取决于边界的颜色值
 outset: 定义一个3D突出边框。 效果取决于边界的颜色值
 ```
-### border-radius
+#### border-radius
 #### border-width
 #### border-color
 
