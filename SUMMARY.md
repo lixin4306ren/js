@@ -16,5 +16,5 @@
 * [建立package.json](jian_li_package__json_lai_guan_li_node__js_xiang_m.md)
 * [nodejs的全局变量](nodejsde_quan_ju_bian_liang.md)
 * [文件操作API](nei_zhi_mo_kuai.md)
-* [常用API](chang_yong_api.md)
+* [网络操作API](chang_yong_api.md)
 
