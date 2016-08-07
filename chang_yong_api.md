@@ -3,7 +3,8 @@
 ## URL
 ## QueryString
 ## HTTP
-### get
-### request
+### get/request
+
+
 ## events
 `events.EventEmitter()`  
