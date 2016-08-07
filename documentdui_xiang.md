@@ -38,9 +38,16 @@ Document 对象使我们可以从脚本中对 HTML 页面中的所有元素进�
 |document.querySelector()|返回文档中匹配指定的CSS选择器的第一元素|
 |document.querySelectorAll()|document.querySelectorAll() 是 HTML5中引入的新方法，返回文档中匹配的CSS选择器的所有元素节点列表|
 
+```
+document.querySelector("#demo"); 获取文档中 id="demo" 的第一个元素
+document.querySelector("p"); 获取文档中第一个 <p> 元素
+document.querySelector(".example"); 获取文档中 class="example" 的第一个元素
+document.querySelector("p.example"); 获取文档中 class="example" 的第一个 <p> 元素:
+document.querySelector("a[target]"); 获取文档中有 "target" 属性的第一个 <a> 元素：
 
-获取文档中 id="demo" 的第一个元素：  
-`document.querySelector("#demo");`  
+
+
+```
 
 
 
