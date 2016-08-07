@@ -1,4 +1,4 @@
-# 内置模块
+# 文件操作内置模块
 
 ## File System（文件系统）
 http://nodejs.org/api/fs.html
