@@ -28,4 +28,12 @@ Document 对象使我们可以从脚本中对 HTML 页面中的所有元素进�
 | open()| 打开一个流，以收集来自任何 document.write() 或 document.writeln() 方法的输出。 |
 | write()| 向文档写 HTML 表达式 或 JavaScript 代码。 |
 | writeln()	| 等同于 write() 方法，不同的是在每个表达式之后写一个换行符。 |
+|document.activeElement	|返回当前获取焦点元素|
+|||
+|||
+|||
+|||
+|||
+|||
+
 
