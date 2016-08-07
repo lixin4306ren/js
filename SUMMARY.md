@@ -10,7 +10,7 @@
 * [浏览器对象](liu_lan_qi_dui_xiang.md)
 * [document对象](documentdui_xiang.md)
 * DOM简介
-* DOM
+* DOM进阶
 * [Node.js安装](nodejs.md)
 * [建立package.json](jian_li_package__json_lai_guan_li_node__js_xiang_m.md)
 * [常用API](chang_yong_api.md)
