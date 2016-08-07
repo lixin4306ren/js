@@ -12,5 +12,5 @@
    * [简单认识DOM](jian_dan_ren_shi_dom.md)
    * [DOM进阶](dom_jin_jie.md)
 * [Node.js安装](nodejs.md)
-* [建立 package.json 来管理 Node.js 项目](jian_li_package__json_lai_guan_li_node__js_xiang_m.md)
+* [建立package.json](jian_li_package__json_lai_guan_li_node__js_xiang_m.md)
 
