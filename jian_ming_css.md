@@ -198,7 +198,23 @@ h1.hidden {visibility:hidden;}
 h1.hidden {display:none;}
 ```
 
-
+### 2D转换
+```
+translate()
+rotate()
+scale()
+skew()
+matrix()
+```
+示例：
+```
+div
+{
+transform: rotate(30deg);
+-ms-transform: rotate(30deg); /* IE 9 */
+-webkit-transform: rotate(30deg); /* Safari and Chrome */
+}
+```
 
 
 
