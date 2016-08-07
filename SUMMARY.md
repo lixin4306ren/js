@@ -15,5 +15,5 @@
 * [Node.js安装](nodejs.md)
 * [建立package.json](jian_li_package__json_lai_guan_li_node__js_xiang_m.md)
 * [常用API](chang_yong_api.md)
-* 内置模块
+* [内置模块](nei_zhi_mo_kuai.md)
 
