@@ -118,6 +118,7 @@ text-decoration:none; 从设计的角度看 text-decoration属性主要是用来
 text-transform:uppercase;
 text-indent:50px; 文本缩进属性是用来指定文本的第一行的缩进。
 word-spacing 设置字间距
+text-shadow 添加阴影
 ```
 
 ### 链接样式
@@ -161,10 +162,25 @@ inset:定义一个3D的嵌入边框。效果取决于边界的颜色值
 outset: 定义一个3D突出边框。 效果取决于边界的颜色值
 ```
 #### border-radius
+用来画一个圆  
+```
+<style> 
+div
+{	
+	width:300px;
+	height:300px;
+	border-radius:150px;
+	border:5px solid red;
+
+}
+</style>
+```
+
 #### border-width
 #### border-color
 #### border-image
 #### box-shadow
+
 
 ### 尺寸
 ```
