@@ -1,4 +1,4 @@
-# DOM
+# DOM修改HTML
 
 ## 三种获得节点的方法
 `getElementByID`有唯一性  
