@@ -163,6 +163,8 @@ outset: 定义一个3D突出边框。 效果取决于边界的颜色值
 #### border-radius
 #### border-width
 #### border-color
+#### border-image
+#### box-shadow
 
 ### 尺寸
 ```
