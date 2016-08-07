@@ -22,5 +22,6 @@ document.getElementById("myBtn").addEventListener("click", displayDate);
 
 
 你可以使用 `removeEventListener()` 方法来移除事件的监听。
-
-
+```
+element.removeEventListener("mousemove", myFunction);
+```
