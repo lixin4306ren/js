@@ -36,5 +36,8 @@ Document 对象使我们可以从脚本中对 HTML 页面中的所有元素进�
 |document.createAttribute()|创建一个属性节点|
 |document.createTextNode()|创建文本节点|
 |document.querySelector()|返回文档中匹配指定的CSS选择器的第一元素|
+|document.querySelectorAll()|document.querySelectorAll() 是 HTML5中引入的新方法，返回文档中匹配的CSS选择器的所有元素节点列表|
+
+
 
 
