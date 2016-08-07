@@ -1,7 +1,7 @@
 # Summary
 
 * [简介](README.md)
-* [简明html标签](jian_ming_html_biao_qian.md)
+* [简明html](jian_ming_html_biao_qian.md)
 * [简明CSS](jian_ming_css.md)
 * [安装设置相关](chapter1.md)
 * [基本语法](ji_ben_yu_fa.md)
