@@ -12,3 +12,15 @@ schema://host[:port#]/path/.../[;url-params][?query-string][#anchor]
 5. url-params
 6. query-string       发送给http服务器的数据
 7. anchor 锚
+
+
+实例：
+```
+http://www.mywebsite.com/sj/test;id=8079?name=sviergn&x=true#stuff
+Schema: http
+host: www.mywebsite.com
+path: /sj/test
+URL params: id=8079
+Query String: name=sviergn&x=true
+Anchor: stuff
+```
