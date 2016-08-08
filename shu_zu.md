@@ -57,6 +57,14 @@ var last = fruits.pop();
 ```
 var first = fruits.shift(); // remove Apple from the front
 ```
+### 添加到数组的前面
+```
+var newLength = fruits.unshift("Strawberry") // add to the front
+```
+
+### 找到某个元素在数组中的索引
+
+
 
 
 ## 数组相关属性
