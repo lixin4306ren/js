@@ -72,3 +72,6 @@ writerStream.on('error', function(err){
 
 console.log("Program Ended");
 ```
+
+### Piping streams
+
