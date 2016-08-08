@@ -194,7 +194,7 @@ The cat was playing in the garden.
 </textarea>
 ```
 
-### 按钮
+### 按钮 type="button"
 ```
 <form>
 <input type="button" value="Hello world!">
