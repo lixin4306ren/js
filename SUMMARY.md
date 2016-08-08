@@ -17,7 +17,7 @@
 * [Node.js安装](nodejs.md)
 * [建立package.json](jian_li_package__json_lai_guan_li_node__js_xiang_m.md)
 * [nodejs的全局对象](nodejsde_quan_ju_bian_liang.md)
-* [event模块](eventmo_kuai.md)
+* [事件驱动编程](eventmo_kuai.md)
 * [文件操作API](nei_zhi_mo_kuai.md)
 * [网络操作API](chang_yong_api.md)
 * [进程管理API](jin_cheng_guan_li_api.md)
