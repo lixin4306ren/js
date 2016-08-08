@@ -53,4 +53,6 @@ jQuery简单易用，容易上手。拥有轻量级的库，强大的选择器�
 ### 什么时候适合用Jquery?
 ![](http://upload-images.jianshu.io/upload_images/1181204-61c2cd0d2b1bcd8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+### Jquery对象与DOM对象可以相互转换
+![](http://upload-images.jianshu.io/upload_images/1181204-94835b6421a17dd3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
