@@ -16,6 +16,7 @@
 * [jQuery介绍](jqueryjie_shao.md)
 * [Node.js安装](nodejs.md)
 * [建立package.json](jian_li_package__json_lai_guan_li_node__js_xiang_m.md)
+* 有用的函数
 * [nodejs的全局对象](nodejsde_quan_ju_bian_liang.md)
 * [事件驱动编程介绍](eventmo_kuai.md)
 * [流操作介绍](liu.md)
@@ -26,5 +27,4 @@
 * [superagent API介绍](superagent_apijie_shao.md)
 * [cheerio API介绍](nodejs_cao_zuo_dom_mo_kuai_cheerio.md)
 * [示例一——爬虫](shi_li_yi_2014_2014_pa_chong.md)
-* 有用的函数
 
