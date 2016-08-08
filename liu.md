@@ -8,3 +8,4 @@
 
 4. Transform - A type of duplex stream where the output is computed based on input.
 
+所有的流都是EventEmitter实例。
