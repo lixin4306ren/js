@@ -8,4 +8,13 @@
 
 4. Transform - A type of duplex stream where the output is computed based on input.
 
-所有的流都是EventEmitter实例。
+## 流的事件
+所有的流都是EventEmitter实例，共享的事件有：
+
+1. data - This event is fired when there is data is available to read.
+
+end - This event is fired when there is no more data to read.
+
+error - This event is fired when there is any error receiving or writing data.
+
+finish - This event is fired when all data has been flushed to underlying system
