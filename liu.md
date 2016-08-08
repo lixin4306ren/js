@@ -18,3 +18,5 @@
 3. error - This event is fired when there is any error receiving or writing data.
 
 4. finish - This event is fired when all data has been flushed to underlying system
+
+## Reading from stream
