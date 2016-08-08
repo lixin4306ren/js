@@ -27,3 +27,21 @@ http.get('http://www.baidu.com', function(res){
 ```
 
 
+## 发起 HTTP 请求
+
+我们常见的 HTTP 请求有 GET、POST、DELETE、HEAD 等，在发送请求时一般有下列两种方式：
+
+```
+//这里以 GET 举例，其他类似
+//方法 1:
+superagent.get('http://www.baidu.com').end(function(req, res){
+	//do something
+});
+
+//方法 2:
+superagent('GET', 'http://www.baidu.com').end(function(req, res){
+	//do something
+});
+
+```
+
