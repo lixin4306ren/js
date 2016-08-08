@@ -13,12 +13,12 @@
 * [DOM简介](jian_dan_ren_shi_dom.md)
 * [DOM进阶1](dom_jin_jie.md)
 * [DOM进阶2](domjin_jie_2.md)
-* [node.js 操作dom模块 cheerio](nodejs_cao_zuo_dom_mo_kuai_cheerio.md)
 * [Node.js安装](nodejs.md)
 * [建立package.json](jian_li_package__json_lai_guan_li_node__js_xiang_m.md)
 * [nodejs的全局对象](nodejsde_quan_ju_bian_liang.md)
 * [文件操作API](nei_zhi_mo_kuai.md)
 * [网络操作API](chang_yong_api.md)
 * [进程管理API](jin_cheng_guan_li_api.md)
+* [node.js 操作dom模块 cheerio](nodejs_cao_zuo_dom_mo_kuai_cheerio.md)
 * [示例一——爬虫](shi_li_yi_2014_2014_pa_chong.md)
 
