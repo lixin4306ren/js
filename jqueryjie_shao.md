@@ -47,4 +47,6 @@ Jquery API优势
 1. 兼容性好
 2. API友好  
 　比如在做事件监听的时候DOM需要`addEventListener`和`attachEvent`等等；而Jquery直接为我们封装为`on()`,`bind()`。 还有就是它可以链式操作。
+3. 功能强大，与时俱进  
+
 
