@@ -1,4 +1,5 @@
 # event模块
+## 理解event
 ```
 // Import events module
 var events = require('events');
