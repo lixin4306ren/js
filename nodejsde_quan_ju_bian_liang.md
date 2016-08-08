@@ -12,7 +12,11 @@ console.trace() 输出当前调用栈.
 ## Buffer
 
 ## __filename
-获取当前执行脚本所在的目录,同上,也是node.js中的魔术变量.
+获取当前执行脚本所在的绝对路径。注意是两个下划线。
+
+## __dirname
+`__dirname` 表示当前执行脚本所在的目录。
+
 
 ## module
 
