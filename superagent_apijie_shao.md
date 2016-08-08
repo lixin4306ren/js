@@ -93,3 +93,6 @@ superagent.post('/').send({name:"lindz"}).send({age:21})
 3. res.header 响应头，是一个对象
 4. res.type & res.charset 类型和编码格式
 5. res.status状态码
+
+## 中断请求 & 暂停请求
+分别对应 req.abort() 和 req.timeout(ms);
