@@ -152,7 +152,7 @@ action 属性规定当提交表单时，向何处发送表单数据。
 
 
 #### method属性
-
+规定用于发送 form-data 的 HTTP 方法。有`get`,`post`两种。
 
 
 <hr>
