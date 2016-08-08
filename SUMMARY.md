@@ -14,9 +14,9 @@
 * [DOM进阶1](dom_jin_jie.md)
 * [DOM进阶2](domjin_jie_2.md)
 * [jQuery介绍](jqueryjie_shao.md)
+* 有用的函数
 * [Node.js安装](nodejs.md)
 * [建立package.json](jian_li_package__json_lai_guan_li_node__js_xiang_m.md)
-* 有用的函数
 * [nodejs的全局对象](nodejsde_quan_ju_bian_liang.md)
 * [事件驱动编程介绍](eventmo_kuai.md)
 * [流操作介绍](liu.md)
