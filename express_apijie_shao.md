@@ -96,3 +96,25 @@ var server = app.listen(8081, function () {
 ```
 
 ## 上传文件
+建立index.htm文件如下：
+```
+<html>
+<head>
+<title>File Uploading Form</title>
+</head>
+<body>
+<h3>File Upload:</h3>
+Select a file to upload: <br />
+<form action="http://127.0.0.1:8081/file_upload" method="POST" 
+      enctype="multipart/form-data">
+<input type="file" name="file" size="50" />
+<br />
+<input type="submit" value="Upload File" />
+</form>
+</body>
+</html>
+```
+
+```
+
+```
