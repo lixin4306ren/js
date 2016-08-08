@@ -53,5 +53,7 @@ exports 和 module.exports 其实是一样的,但是为了简化使用,exports �
 
 我们从一个模块导出一个方法 exports.myfunction 等价于 module.exports.myfunction 明显前面的用户很简单,书写更少的代码.
 
-## 
+## setTimeout(cb, ms)
+## clearTimeout(t)
+
 
