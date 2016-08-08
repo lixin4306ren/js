@@ -63,14 +63,26 @@ var newLength = fruits.unshift("Strawberry") // add to the front
 ```
 
 ### 找到某个元素在数组中的索引
+```
+fruits.push("Mango");
+// ["Strawberry", "Banana", "Mango"]
 
+var pos = fruits.indexOf("Banana");
+// 1
+```
+### 通过索引删除某个元素
 
+```
+var removedItem = fruits.splice(pos, 1); // this is how to remove an item
+```
 
-
-## 数组相关属性
+### 计算数组长度
 ```
 myarray.length; //获得数组myarray的长度
 
 ```
+
+## 数组对象方法
+### 
 
 
