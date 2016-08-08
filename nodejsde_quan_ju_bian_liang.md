@@ -2,6 +2,25 @@
 ## process 
 `process`是一个全局变量，可通过`process.argv`获得命令行参数。由于`argv[0]`固定等于NodeJS执行程序的绝对路径，`argv[1]`固定等于主模块的绝对路径，因此第一个命令行参数从`argv[2]`这个位置开始。
 
+`Process` 提供了很多有用的属性，便于我们更好的控制系统的交互：  
+```
+// 输出到终端
+process.stdout.write("Hello World!" + "\n");
+
+// 通过参数读取
+process.argv.forEach(function(val, index, array) {
+   console.log(index + ': ' + val);
+});
+
+// 获取执行路局
+console.log(process.execPath);
+
+
+// 平台信息
+console.log(process.platform);
+```
+
+
 ## console
 
 ```
