@@ -209,7 +209,10 @@ label 元素不会向用户呈现任何特殊效果。不过，它为鼠标用�
 </form>
 ```
 
-
+### 提交按钮
+```
+<form name=""><input type="submit" value="确定" /></form> 
+```
 ## 注释
 `<!-- This is a comment -->`
 
