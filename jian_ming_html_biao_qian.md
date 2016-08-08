@@ -142,6 +142,12 @@ HTML `<span>` 元素是内联元素，可用作文本的容器。
 </form>
 ```
 
+### form的action属性
+action 属性规定当提交表单时，向何处发送表单数据。
+
+
+
+<hr>
 多数情况下被用到的表单标签是输入标签`<input>`。输入类型是由类型属性（type）定义的。大多数经常被用到的输入类型如下：
 
 ### 文本域（Text Fields）type="text"
@@ -209,7 +215,7 @@ label 元素不会向用户呈现任何特殊效果。不过，它为鼠标用�
 </form>
 ```
 
-### 提交按钮
+### 提交按钮 type="submit"
 ```
 <form name=""><input type="submit" value="确定" /></form> 
 ```
