@@ -83,6 +83,20 @@ myarray.length; //获得数组myarray的长度
 ```
 
 ## 数组对象方法
-### 
+```
+Array.from() 
+从类数组或者迭代对象（iterable object）中创建一个新的数组实例。
+Array.isArray()
+假如一个变量是数组则返回true，否则返回false。
+Array.observe() 
+异步监视数组的修改情况，与对象的Object.observe()方法类似。该方法会根据修改事件发生顺序提供一个修改流。
+Array.of() 
+创建一个有可变数量的参数的新的数组实例，无论参数有多少数量，而且可以是任意类型。
+```
+
+## 数组实例
+所有数组实例继承自 `Array.prototype`。`Array` 构造函数的原型对象是可修改的，其会影响所有的数组实例。
+
+
 
 
