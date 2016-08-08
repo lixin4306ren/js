@@ -11,5 +11,3 @@ http://nodejs.org/api/http.html
 
 ## Net
 用于创建Socket服务器或Socket客户端。  
-
-## express
