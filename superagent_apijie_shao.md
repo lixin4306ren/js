@@ -6,5 +6,24 @@ http://www.jianshu.com/p/98b854322260
 
 ## 用法展示，和http模块区别
 
+```
+//superagent
+var superagent = require('supeagent');
+superagent.get('http://www.baidu.com').end(function(req, res){
+				console.log(res.text);
+			});
+
+//http 
+var http = require('http');
+http.get('http://www.baidu.com', function(res){
+    var html = "";
+    res.on('data', function(chunk){
+        html += chunk.toString();
+    });
+    res.on('end', function(){
+        console.log(html);
+    });
+})
+```
 
 
