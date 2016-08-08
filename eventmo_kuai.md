@@ -31,3 +31,8 @@ console.log("Program Ended.");
 
 1. on: bind a function with the event
 2. emit: used to fire an event
+3. addListener(event, listener)
+4. removeListener(event, listener)
+5. removeAllListeners([event])
+6. listeners(event): Returns an array of listeners for the specified event.
+7. 
