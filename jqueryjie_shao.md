@@ -31,5 +31,20 @@ jQuery简单易用，容易上手。拥有轻量级的库，强大的选择器�
 </html>
 ```
 
-## DOM对象 vs. jQuery对象
+## DOM对象/API vs. jQuery对象/API
+
+为什么要用jQuery？   
+1. 难用  
+　　要想拿到一个对象，要写很长的代码比如`document.getElementById('xxx')`,但是如果是Jquery的话可以直接`$('#xxx')`。
+
+2. 存在兼容性问题  
+　　采用DOM操作的时候往往需要兼容IE和非IE浏览器问题。
+
+3. 功能太少，不能与时俱进  
+　 DOM可以获取第一个子元素却不能获取第二个子元素，而且有时候还要搞一个判断语句，很麻烦。
+
+Jquery API优势  
+1. 兼容性好
+2. API友好  
+　比如在做事件监听的时候DOM需要addEventListener和attachEvent等等；而Jquery直接为我们封装为on(),bind()。 还有就是它可以链式操作。
 
