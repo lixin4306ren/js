@@ -33,6 +33,15 @@ for(var i=0;i<2;i++){   //一维长度为2
 var Myarr = [[0 , 1 , 2 ],[1 , 2 , 3, ]]
 ```
 
+## 遍历
+
+`forEach`
+```
+var fruits = ["Apple", "Banana"];
+fruits.forEach(function (item, index, array) {
+  console.log(item, index);
+});
+```
 
 ## 数组相关属性
 ```
