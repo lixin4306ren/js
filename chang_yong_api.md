@@ -9,9 +9,6 @@ http://nodejs.org/api/querystring.html
 http://nodejs.org/api/http.html
 ### get/request
 
-## Zlib
-http://nodejs.org/api/zlib.html
-
 ## Net
 用于创建Socket服务器或Socket客户端。  
 ## events
