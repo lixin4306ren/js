@@ -10,4 +10,9 @@ JSON.stringify([]) // "[]"
 JSON.stringify({}) // "{}"
 JSON.stringify([1, "false", false]) // '[1,"false",false]'
 JSON.stringify({ name: "张三" }) // '{"name":"张三"}'
+JSON.stringify({
+  f: function(){},
+  a: [ function(){}, undefined ]
+});
+
 ````
