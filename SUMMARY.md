@@ -21,4 +21,5 @@
 * [进程管理API](jin_cheng_guan_li_api.md)
 * [node.js 操作dom模块 cheerio](nodejs_cao_zuo_dom_mo_kuai_cheerio.md)
 * [示例一——爬虫](shi_li_yi_2014_2014_pa_chong.md)
+* jQuery介绍
 
