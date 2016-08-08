@@ -21,7 +21,8 @@ http://nodejs.org/api/path.html
 ## zlib (压缩)
 ```
 var zlib = require('zlib');
-zlib.createGzip()
+zlib.createGzip()   //压缩
+zlib.createGunzip() //解压
 ```
 
 
