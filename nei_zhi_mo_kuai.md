@@ -3,7 +3,8 @@
 ## File System（文件系统）
 http://nodejs.org/api/fs.html
 ```
-fs.readFileSync
+fs.readFile             // 异步操作
+fs.readFileSync         // 同步操作
 fs.writeFileSync
 fs.createReadStream
 fs.createWriteStream
