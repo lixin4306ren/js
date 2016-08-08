@@ -150,10 +150,12 @@ action 属性规定当提交表单时，向何处发送表单数据。
 1. 绝对 URL - 指向其他站点（比如 src="www.example.com/example.htm"）
 2. 相对 URL - 指向站点内的文件（比如 src="example.htm"）
 
-<hr>
 
 #### method属性
 
+
+
+<hr>
 
 多数情况下被用到的表单标签是输入标签`<input>`。输入类型是由类型属性（type）定义的。大多数经常被用到的输入类型如下：
 
