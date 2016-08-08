@@ -43,6 +43,22 @@ fruits.forEach(function (item, index, array) {
 });
 ```
 
+## 操作
+### 添加元素到数组的末尾
+```
+var newLength = fruits.push("Orange");
+```
+
+### 删除数组末尾的元素
+```
+var last = fruits.pop();
+```
+### 删除数组前面的元素
+```
+var first = fruits.shift(); // remove Apple from the front
+```
+
+
 ## 数组相关属性
 ```
 myarray.length; //获得数组myarray的长度
