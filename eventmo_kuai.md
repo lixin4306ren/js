@@ -27,4 +27,7 @@ eventEmitter.emit('connection');
 console.log("Program Ended.");
 ```
 
+## events.EventEmitter对象的方法
 
+1. on: bind a function with the event
+2. emit: used to fire an event
