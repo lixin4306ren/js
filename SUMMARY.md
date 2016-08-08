@@ -21,6 +21,6 @@
 * [网络操作API](chang_yong_api.md)
 * [进程管理API](jin_cheng_guan_li_api.md)
 * [superagent API介绍](superagent_apijie_shao.md)
-* [node.js 操作dom模块 cheerio](nodejs_cao_zuo_dom_mo_kuai_cheerio.md)
+* [cheerio API介绍](nodejs_cao_zuo_dom_mo_kuai_cheerio.md)
 * [示例一——爬虫](shi_li_yi_2014_2014_pa_chong.md)
 
