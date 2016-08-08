@@ -144,7 +144,7 @@ HTML `<span>` 元素是内联元素，可用作文本的容器。
 
 多数情况下被用到的表单标签是输入标签`<input>`。输入类型是由类型属性（type）定义的。大多数经常被用到的输入类型如下：
 
-### 文本域（Text Fields）
+### 文本域（Text Fields）type="text"
 ```
 <form>
 First name: 
@@ -155,7 +155,7 @@ Last name:
 </form>
 ```
 
-### 单选按钮（Radio Buttons）
+### 单选按钮（Radio Buttons）type="radio"
 ```
 <form>
 <input type="radio" name="sex" value="male" /> Male
@@ -163,7 +163,7 @@ Last name:
 <input type="radio" name="sex" value="female" /> Female
 </form>
 ```
-### 复选框（Checkboxes）
+### 复选框（Checkboxes）type="checkbox"
 ```
 <form>
 <input type="checkbox" name="bike" />
