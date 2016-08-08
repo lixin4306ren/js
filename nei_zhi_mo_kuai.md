@@ -18,6 +18,13 @@ http://nodejs.org/api/stream.html
 ## Path（路径）
 http://nodejs.org/api/path.html
 
+## zlib (压缩)
+```
+var zlib = require('zlib');
+zlib.createGzip()
+```
+
+
 
 
 
