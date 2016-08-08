@@ -1,7 +1,6 @@
 # 有用的函数
 ## JSON
-1. JSON.stringify  
-将一个值转为字符串  
+1. `JSON.stringify`将一个值转为字符串  
 
 ```
 JSON.stringify('abc') // ""abc""
@@ -18,8 +17,7 @@ JSON.stringify({
 
 ```
 
-2. JSON.parse()  
-用于将JSON字符串转化成对象。
+2. `JSON.parse()`将JSON字符串转化成对象。
 
 ```
 var o = JSON.parse('{"name": "张三"}');
