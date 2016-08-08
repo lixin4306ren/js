@@ -73,7 +73,7 @@ writerStream.on('error', function(err){
 console.log("Program Ended");
 ```
 
-### Piping streams
+## Piping streams
 
 ```
 var fs = require("fs");
@@ -90,4 +90,15 @@ readerStream.pipe(writerStream);
 
 console.log("Program Ended");
 ```
+## Chaining streams
+```
+var fs = require("fs");
+var zlib = require('zlib');
 
+// Compress the file input.txt to input.txt.gz
+fs.createReadStream('input.txt')
+  .pipe(zlib.createGzip())
+  .pipe(fs.createWriteStream('input.txt.gz'));
+  
+console.log("File Compressed.");
+```
