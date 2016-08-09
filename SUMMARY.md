@@ -21,6 +21,7 @@
 * [事件驱动编程介绍](eventmo_kuai.md)
 * [流操作介绍](liu.md)
 * [理解非阻塞概念](li_jie_fei_zu_sai.md)
+* [URL详解](urlxiang_jie.md)
 * [文件操作API](nei_zhi_mo_kuai.md)
 * [网络操作API](chang_yong_api.md)
 * [进程管理API](jin_cheng_guan_li_api.md)
@@ -28,6 +29,5 @@
 * [superagent API介绍](superagent_apijie_shao.md)
 * [cheerio API介绍](nodejs_cao_zuo_dom_mo_kuai_cheerio.md)
 * [eventproxy API介绍](eventproxy_apijie_shao.md)
-* [URL详解](urlxiang_jie.md)
 * [示例一——爬虫](shi_li_yi_2014_2014_pa_chong.md)
 
