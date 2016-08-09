@@ -20,6 +20,8 @@ http://nodejs.org/api/url.html
 ### URL格式操作
 1. url.parse(urlString[, parseQueryString[, slashesDenoteHost]])
 2. url.resolve(from, to)
+
+baseURL + HREF URL
 ```
 url.resolve('/one/two/three', 'four')         // '/one/two/four'
 url.resolve('http://example.com/', '/one')    // 'http://example.com/one'
