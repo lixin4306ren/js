@@ -32,6 +32,10 @@ url.resolve('http://example.com/one', '/two') // 'http://example.com/two'
 ## QueryString
 用于实现URL参数字符串与参数对象的互相转换  
 http://nodejs.org/api/querystring.html
+
+1. parse
+2. stringify
+
 ```
 querystring.parse('foo=bar&baz=qux&baz=quux&corge');
 /* =>
