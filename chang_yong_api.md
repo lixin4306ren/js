@@ -19,7 +19,12 @@ http://nodejs.org/api/url.html
 
 ### URL格式操作
 1. url.parse(urlString[, parseQueryString[, slashesDenoteHost]])
-2. 
+2. url.resolve(from, to)
+```
+url.resolve('/one/two/three', 'four')         // '/one/two/four'
+url.resolve('http://example.com/', '/one')    // 'http://example.com/one'
+url.resolve('http://example.com/one', '/two') // 'http://example.com/two'
+```
 
 
 ## QueryString
