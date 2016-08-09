@@ -20,7 +20,7 @@ console.log(img);
 ## each函数的用法
 ```
 $('img').each(function (i, item) {
-    var src = $(item).attr('src');
+    var src = $(item).attr('src'); //注意这里的item是用$处理为cheerio对象
     console.log(src);
 });
 ```
