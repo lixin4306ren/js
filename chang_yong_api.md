@@ -12,7 +12,14 @@ http://nodejs.org/api/url.html
 6. urlObject.hostname
 7. urlObject.port
 8. urlObject.pathname
-9. 
+9. urlObject.search
+10. urlObject.path
+11. urlObject.query
+12. urlObject.hash
+
+### URL格式操作
+1. url.parse(urlString[, parseQueryString[, slashesDenoteHost]])
+2. 
 
 
 ## QueryString
