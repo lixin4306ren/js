@@ -25,4 +25,13 @@ $('img').each(function (i, item) {
 });
 ```
 
-## 
+## 获取全部或指定的DOM对象
+```
+$('li').get(0).tagName
+//=> li
+```
+
+```
+$('li').get().length
+//=> 3
+```
