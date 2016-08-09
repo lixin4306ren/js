@@ -10,7 +10,9 @@ http://nodejs.org/api/url.html
 4. urlObject.host
 5. urlObject.auth
 6. urlObject.hostname
-7. 
+7. urlObject.port
+8. urlObject.pathname
+9. 
 
 
 ## QueryString
