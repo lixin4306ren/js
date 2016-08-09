@@ -8,6 +8,11 @@
 2. http://www.tutorialspoint.com/nodejs/
 3. http://nqdeng.github.io/7-days-nodejs/
 4. http://www.nodebeginner.org/index-zh-cn.html
+5. https://github.com/alsotang/node-lessons
+
+
+继续进阶请关注：
+《the node craftsman book》
 
 
 
