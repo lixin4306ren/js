@@ -26,7 +26,7 @@
 * [express API介绍](express_apijie_shao.md)
 * [superagent API介绍](superagent_apijie_shao.md)
 * [cheerio API介绍](nodejs_cao_zuo_dom_mo_kuai_cheerio.md)
+* eventproxy API介绍
 * [URL详解](urlxiang_jie.md)
 * [示例一——爬虫](shi_li_yi_2014_2014_pa_chong.md)
-* eventproxy API介绍
 
