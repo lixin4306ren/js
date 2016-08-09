@@ -3,6 +3,14 @@
 ## URL
 http://nodejs.org/api/url.html
 
+### URL对象属性
+1. urlObject.href
+2. urlObject.protocol
+3. urlObject.slashes
+4. urlObject.host
+5. urlObject.auth
+6. urlObject.hostname
+7. 
 
 
 ## QueryString
