@@ -1,4 +1,5 @@
 # cheerio
+http://blog.gejiawen.com/2015/08/17/read-cheerio-doc/
 node.js操作dom的模块，快速，灵活，在服务器端使用的jQuery。
 
 ## 加载html页面
