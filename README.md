@@ -5,6 +5,7 @@
 
 内容来源：
 1. 来自慕课网JavaScript入门篇和进阶篇。  
+2. http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000
 2. http://www.tutorialspoint.com/nodejs/  
 3. http://nqdeng.github.io/7-days-nodejs/  
 4. http://www.nodebeginner.org/index-zh-cn.html  
