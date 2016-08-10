@@ -16,7 +16,7 @@ source $(brew --prefix nvm)/nvm.sh
 找出目前所有可安裝的 Node.js 版本  
 `$ nvm ls-remote`  
 
-安裝 Node.js (0.11.16)  
+### 安裝 Node.js  
 `$ nvm install 0.11.16`  
 指定nvm使用的 Node.js版本  
 `nvm use 0.11.16`  
