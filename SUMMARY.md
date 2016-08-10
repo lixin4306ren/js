@@ -4,6 +4,7 @@
 * [简明html](jian_ming_html_biao_qian.md)
 * [简明CSS](jian_ming_css.md)
 * [基本语法](ji_ben_yu_fa.md)
+* 面向对象编程
 * [事件响应](shi_jian_xiang_ying.md)
 * [字符串对象](zi_fu_chuan_dui_xiang.md)
 * [数组对象](shu_zu.md)
@@ -16,7 +17,6 @@
 * [jQuery介绍](jqueryjie_shao.md)
 * [Node.js安装设置管理](nodejs.md)
 * [node.js的全局对象](nodejsde_quan_ju_bian_liang.md)
-* 面向对象编程
 * [node.js的全局函数](you_yong_de_han_shu.md)
 * [事件驱动编程介绍](eventmo_kuai.md)
 * [流操作介绍](liu.md)
