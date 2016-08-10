@@ -6,7 +6,7 @@
 * [基本语法](ji_ben_yu_fa.md)
 * [字符串对象](zi_fu_chuan_dui_xiang.md)
 * [数组对象](shu_zu.md)
-* [内建对象](dui_xiang.md)
+* [其他内建对象](dui_xiang.md)
 * [事件响应](shi_jian_xiang_ying.md)
 * [浏览器对象](liu_lan_qi_dui_xiang.md)
 * [document对象](documentdui_xiang.md)
