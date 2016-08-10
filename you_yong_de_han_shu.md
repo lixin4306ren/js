@@ -23,3 +23,18 @@ JSON.stringify({
 var o = JSON.parse('{"name": "张三"}');
 o.name // 张三
 ```
+
+## Number()
+Converts an object's value to a number
+
+## String()
+Converts an object's value to a string
+
+## parseFloat()
+Parses a string and returns a floating point number
+
+## parseInt()
+Parses a string and returns an integer
+
+## eval()
+Evaluates a string and executes it as if it was script code
