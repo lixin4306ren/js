@@ -16,6 +16,7 @@
 * [jQuery介绍](jqueryjie_shao.md)
 * [有用的函数](you_yong_de_han_shu.md)
 * [Node.js安装](nodejs.md)
+* 字符串对象
 * [建立package.json](jian_li_package__json_lai_guan_li_node__js_xiang_m.md)
 * [nodejs的全局对象](nodejsde_quan_ju_bian_liang.md)
 * [事件驱动编程介绍](eventmo_kuai.md)
@@ -30,5 +31,4 @@
 * [cheerio API介绍](nodejs_cao_zuo_dom_mo_kuai_cheerio.md)
 * [eventproxy API介绍](eventproxy_apijie_shao.md)
 * [示例一——爬虫](shi_li_yi_2014_2014_pa_chong.md)
-* 字符串对象
 
