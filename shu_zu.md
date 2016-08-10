@@ -110,3 +110,42 @@ Array.of()
   document.write(mya4);
 </script>
 ```
+
+## map/reduce方法
+
+## filter方法
+传入函数过滤数组
+```
+var arr = [1, 2, 4, 5, 6, 9, 10, 15];
+var r = arr.filter(function (x) {
+    return x % 2 !== 0;
+});
+r; // [1, 5, 9, 15]
+```
+
+## sort排序
+```
+// 无法理解的结果:
+[10, 20, 1, 2].sort(); // [1, 10, 2, 20]
+```
+
+这是因为Array的`sort()`方法默认把所有元素先转换为String再排序，结果'10'排在了'2'的前面，因为字符'1'比字符'2'的ASCII码小。
+
+幸运的是，sort()方法也是一个高阶函数，它还可以接收一个比较函数来实现自定义的排序。
+
+要按数字大小排序，我们可以这么写：
+
+```
+var arr = [10, 20, 1, 2];
+arr.sort(function (x, y) {
+    if (x < y) {
+        return -1;
+    }
+    if (x > y) {
+        return 1;
+    }
+    return 0;
+}); // [1, 2, 10, 20]
+
+```
+
