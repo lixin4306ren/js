@@ -16,6 +16,7 @@
 * [jQuery介绍](jqueryjie_shao.md)
 * [Node.js安装设置管理](nodejs.md)
 * [node.js的全局对象](nodejsde_quan_ju_bian_liang.md)
+* 面向对象编程
 * [node.js的全局函数](you_yong_de_han_shu.md)
 * [事件驱动编程介绍](eventmo_kuai.md)
 * [流操作介绍](liu.md)
@@ -29,5 +30,4 @@
 * [superagent API介绍](superagent_apijie_shao.md)
 * [cheerio API介绍](nodejs_cao_zuo_dom_mo_kuai_cheerio.md)
 * [示例一——爬虫](shi_li_yi_2014_2014_pa_chong.md)
-* 面向对象编程
 
