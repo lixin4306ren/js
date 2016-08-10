@@ -26,7 +26,21 @@ o.name // 张三
 
 ## Number()
 Converts an object's value to a number
+```
+var x1 = true;
+var x2 = false;
+var x3 = new Date();
+var x4 = "999";
+var x5 = "999 888";
 
+var n = 
+Number(x1) + "<br>" + 
+Number(x2) + "<br>" + 
+Number(x3) + "<br>" + 
+Number(x4) + "<br>" + 
+Number(x5);
+
+```
 ## String()
 Converts an object's value to a string
 
