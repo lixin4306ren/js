@@ -26,20 +26,6 @@ Math 对象方法
 
 ![](http://img.imooc.com/532fe841000174db05160622.jpg)
 
-## 数组对象
-数组方法：  
-![](http://img.imooc.com/533295ab0001dead05190599.jpg)
-
-示例，数组连接：
-```
-<script type="text/javascript">
-  var mya1= new Array("hello!")
-  var mya2= new Array("I","love");
-  var mya3= new Array("JavaScript","!");
-  var mya4=mya1.concat(mya2,mya3);
-  document.write(mya4);
-</script>
-```
 
 
 
