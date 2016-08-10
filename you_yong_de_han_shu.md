@@ -43,7 +43,20 @@ Number(x5);
 ```
 ## String()
 Converts an object's value to a string
+```
+var x1 = Boolean(0);
+var x2 = Boolean(1);
+var x3 = new Date();
+var x4 = "12345";
+var x5 = 12345;
 
+var res =
+String(x1) + "<br>" +
+String(x2) + "<br>" +
+String(x3) + "<br>"	+
+String(x4) + "<br>" +
+String(x5);
+```
 ## parseFloat()
 Parses a string and returns a floating point number
 
