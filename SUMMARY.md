@@ -1,4 +1,4 @@
-# 目录
+# Summary
 
 * [简介](README.md)
 * [简明html](jian_ming_html_biao_qian.md)
@@ -6,8 +6,8 @@
 * [安装设置相关](chapter1.md)
 * [基本语法](ji_ben_yu_fa.md)
 * [数组](shu_zu.md)
-* [事件响应](shi_jian_xiang_ying.md)
 * [内建对象](dui_xiang.md)
+* [事件响应](shi_jian_xiang_ying.md)
 * [浏览器对象](liu_lan_qi_dui_xiang.md)
 * [document对象](documentdui_xiang.md)
 * [DOM简介](jian_dan_ren_shi_dom.md)
