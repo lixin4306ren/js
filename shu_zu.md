@@ -97,6 +97,16 @@ Array.of()
 ## 数组实例
 所有数组实例继承自 `Array.prototype`。`Array` 构造函数的原型对象是可修改的，其会影响所有的数组实例。
 
+方法：  
+![](http://img.imooc.com/533295ab0001dead05190599.jpg)
 
-
-
+示例，数组连接：
+```
+<script type="text/javascript">
+  var mya1= new Array("hello!")
+  var mya2= new Array("I","love");
+  var mya3= new Array("JavaScript","!");
+  var mya4=mya1.concat(mya2,mya3);
+  document.write(mya4);
+</script>
+```
