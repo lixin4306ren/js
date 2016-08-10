@@ -16,7 +16,6 @@
 * [jQuery介绍](jqueryjie_shao.md)
 * [有用的函数](you_yong_de_han_shu.md)
 * [Node.js安装设置管理](nodejs.md)
-* [建立package.json](jian_li_package__json_lai_guan_li_node__js_xiang_m.md)
 * [nodejs的全局对象](nodejsde_quan_ju_bian_liang.md)
 * [事件驱动编程介绍](eventmo_kuai.md)
 * [流操作介绍](liu.md)
