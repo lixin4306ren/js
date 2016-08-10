@@ -192,6 +192,20 @@ abs(10); // 10
 abs(-9); // 9
 ```
 
+### 生成器（generator）
+generator和函数不同的是，generator由function*定义（注意多出的*号），并且，除了return语句，还可以用yield返回多次。
+
+```
+function* foo(x) {
+    yield x + 1;
+    yield x + 2;
+    return x + 3;
+}
+```
+
+
+
+
 ## 输出内容
 ### 页面输入
 `document.write()`
