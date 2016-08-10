@@ -5,6 +5,7 @@
 * [简明CSS](jian_ming_css.md)
 * [安装设置相关](chapter1.md)
 * [基本语法](ji_ben_yu_fa.md)
+* 字符串对象
 * [数组](shu_zu.md)
 * [内建对象](dui_xiang.md)
 * [事件响应](shi_jian_xiang_ying.md)
@@ -16,7 +17,6 @@
 * [jQuery介绍](jqueryjie_shao.md)
 * [有用的函数](you_yong_de_han_shu.md)
 * [Node.js安装](nodejs.md)
-* 字符串对象
 * [建立package.json](jian_li_package__json_lai_guan_li_node__js_xiang_m.md)
 * [nodejs的全局对象](nodejsde_quan_ju_bian_liang.md)
 * [事件驱动编程介绍](eventmo_kuai.md)
