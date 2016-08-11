@@ -126,3 +126,13 @@ _.sample([1, 2, 3, 4, 5, 6], 3); // [6, 1, 4]
 ### invert
 ### clone
 ## Chaining链式操作
+underscore提供了把对象包装成能进行链式调用的方法，就是chain()函数：
+
+```
+_.chain([1, 4, 9, 16, 25])
+ .map(Math.sqrt)
+ .filter(x => x % 2 === 1)
+ .value();
+// [1, 3, 5]
+```
+
