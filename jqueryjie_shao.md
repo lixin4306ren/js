@@ -73,4 +73,12 @@ div.show('slow'); // 在0.6秒钟内逐渐显示
 ```
 toggle()方法则根据当前状态决定是show()还是hide()。
 
+### slideUp/slideDown
+你可能已经看出来了，show()和hide()是从左上角逐渐展开或收缩的，而slideUp()和slideDown()则是在垂直方向逐渐展开或收缩的。
+
+slideUp()把一个可见的DOM元素收起来，效果跟拉上窗帘似的，slideDown()相反，而slideToggle()则根据元素是否可见来决定下一步动作：
+```
+var div = $('#test-slide');
+div.slideUp(3000); // 在3秒钟内逐渐向上消失
+```
 
