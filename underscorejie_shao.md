@@ -9,3 +9,10 @@ jQuery在加载时，会把自身绑定到唯一的全局变量$上，underscore
 'use strict';
 _.map([1, 2, 3], (x) => x * x); // [1, 4, 9]
 ```
+
+## map/filter
+和Array的map()与filter()类似，但是underscore的map()和filter()可以作用于Object。当作用于Object时，传入的函数为function (value, key)，第一个参数接收value，第二个参数接收key：
+
+```
+
+```
