@@ -9,8 +9,11 @@ jQuery在加载时，会把自身绑定到唯一的全局变量$上，underscore
 'use strict';
 _.map([1, 2, 3], (x) => x * x); // [1, 4, 9]
 ```
+更多完整的函数请参考underscore的文档：http://underscorejs.org/#collections
 
-## map/filter
+## 适用于集合类操作
+
+### map/filter
 和Array的map()与filter()类似，但是underscore的map()和filter()可以作用于Object。当作用于Object时，传入的函数为function (value, key)，第一个参数接收value，第二个参数接收key：
 
 ```
@@ -26,7 +29,7 @@ var upper = _.mapObject(obj, function (value, key) {
 });
 ```
 
-## every / some
+### every / some
 当集合的所有元素都满足条件时，_.every()函数返回true，当集合的至少一个元素满足条件时，_.some()函数返回true：
 
 ```
@@ -37,7 +40,7 @@ _.every([1, 4, 7, -3, -9], (x) => x > 0); // false
 _.some([1, 4, 7, -3, -9], (x) => x > 0); // true
 ```
 
-## max / min
+### max / min
 这两个函数直接返回集合中最大和最小的数：
 
 ```
@@ -55,7 +58,7 @@ Infinity
 
 注意，如果集合是Object，max()和min()只作用于value，忽略掉key。
 
-## groupBy
+### groupBy
 groupBy()把集合的元素按照key归类，key由传入的函数返回：
 
 ```
@@ -79,7 +82,7 @@ var groups = _.groupBy(scores, function (x) {
 // }
 ```
 
-## shuffle / sample
+### shuffle / sample
 
 shuffle()用洗牌算法随机打乱一个集合：
 
@@ -100,3 +103,6 @@ _.sample([1, 2, 3, 4, 5, 6]); // 2
 _.sample([1, 2, 3, 4, 5, 6], 3); // [6, 1, 4]
 
 ```
+
+## 对Array的操作
+
