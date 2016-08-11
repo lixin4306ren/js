@@ -15,7 +15,7 @@
 * [DOM进阶1](dom_jin_jie.md)
 * [DOM进阶2](domjin_jie_2.md)
 * [jQuery介绍](jqueryjie_shao.md)
-* 用Canvas组建绘图
+* [用Canvas组建绘图](yong_canvas_zu_jian_hui_tu.md)
 * [Node.js安装设置管理](nodejs.md)
 * [node.js的全局对象](nodejsde_quan_ju_bian_liang.md)
 * [node.js的全局函数](you_yong_de_han_shu.md)
