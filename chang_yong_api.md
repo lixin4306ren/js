@@ -47,9 +47,6 @@ querystring.stringify({ foo: 'bar', baz: ['qux', 'quux'], corge: '' });
 'foo=bar&baz=qux&baz=quux&corge='
 */
 ```
-
-
-
 ## HTTP
 http://nodejs.org/api/http.html
 ### get/request
