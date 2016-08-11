@@ -6,7 +6,7 @@
 * [基本语法](ji_ben_yu_fa.md)
 * [面向对象编程](mian_xiang_dui_xiang_bian_cheng.md)
 * [事件响应](shi_jian_xiang_ying.md)
-* Promise概念
+* [Promise概念](promisegai_nian.md)
 * [字符串对象](zi_fu_chuan_dui_xiang.md)
 * [数组对象](shu_zu.md)
 * [其他内建对象](dui_xiang.md)
