@@ -99,3 +99,5 @@ xiaoming.hello(); // Hello, 小明!
 
 ### class继承
 
+新的关键字class从ES6开始正式被引入到JavaScript中。class的目的就是让定义类更简单。
+
