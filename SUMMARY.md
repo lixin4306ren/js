@@ -15,6 +15,7 @@
 * [DOM进阶1](dom_jin_jie.md)
 * [DOM进阶2](domjin_jie_2.md)
 * [jQuery介绍](jqueryjie_shao.md)
+* 用Canvas组建绘图
 * [Node.js安装设置管理](nodejs.md)
 * [node.js的全局对象](nodejsde_quan_ju_bian_liang.md)
 * [node.js的全局函数](you_yong_de_han_shu.md)
@@ -30,5 +31,4 @@
 * [superagent API介绍](superagent_apijie_shao.md)
 * [cheerio API介绍](nodejs_cao_zuo_dom_mo_kuai_cheerio.md)
 * [示例一——爬虫](shi_li_yi_2014_2014_pa_chong.md)
-* 用Canvas组建绘图
 
