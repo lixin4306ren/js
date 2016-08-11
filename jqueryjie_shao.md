@@ -71,4 +71,6 @@ div.hide(3000); // 在3秒钟内逐渐消失
 var div = $('#test-show-hide');
 div.show('slow'); // 在0.6秒钟内逐渐显示
 ```
+toggle()方法则根据当前状态决定是show()还是hide()。
+
 
