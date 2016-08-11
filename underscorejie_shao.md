@@ -52,3 +52,6 @@ _.max([])
 _.min([])
 Infinity
 ```
+
+注意，如果集合是Object，max()和min()只作用于value，忽略掉key。
+
