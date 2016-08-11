@@ -102,3 +102,18 @@ div.animate({
 }, 3000); // 在3秒钟内CSS过渡到设定值
 ```
 
+animate()还可以再传入一个函数，当动画结束时，该函数将被调用：
+
+```
+var div = $('#test-animate');
+div.animate({
+    opacity: 0.25,
+    width: '256px',
+    height: '256px'
+}, 3000, function () {
+    console.log('动画已结束');
+    // 恢复至初始状态:
+    $(this).css('opacity', '1.0').css('width', '128px').css('height', '128px');
+});
+```
+
