@@ -106,3 +106,23 @@ _.sample([1, 2, 3, 4, 5, 6], 3); // [6, 1, 4]
 
 ## 对Array的操作
 
+### first / last
+### flatten
+### zip / unzip
+### object
+### range
+
+## 对函数的操作
+### bind
+### partial
+### memoize
+### once
+### delay
+## 对Objects的操作
+### keys / allKeys
+
+### values
+### mapObject
+### invert
+### clone
+## Chaining链式操作
