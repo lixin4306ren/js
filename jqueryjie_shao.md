@@ -61,4 +61,4 @@ jQuery简单易用，容易上手。拥有轻量级的库，强大的选择器�
 
 DOM对象只能用DOM API调用，Jquery对象只能用Jquery API来调用。
 
-### 
+## jQuery实现动画
