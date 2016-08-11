@@ -78,3 +78,8 @@ var groups = _.groupBy(scores, function (x) {
 //   C: [20, 40, 59]
 // }
 ```
+
+## shuffle / sample
+
+
+
