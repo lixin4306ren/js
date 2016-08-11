@@ -6,6 +6,7 @@
 * [基本语法](ji_ben_yu_fa.md)
 * [面向对象编程](mian_xiang_dui_xiang_bian_cheng.md)
 * [事件响应](shi_jian_xiang_ying.md)
+* Promise概念
 * [字符串对象](zi_fu_chuan_dui_xiang.md)
 * [数组对象](shu_zu.md)
 * [其他内建对象](dui_xiang.md)
@@ -31,5 +32,4 @@
 * [superagent API介绍](superagent_apijie_shao.md)
 * [cheerio API介绍](nodejs_cao_zuo_dom_mo_kuai_cheerio.md)
 * [示例一——爬虫](shi_li_yi_2014_2014_pa_chong.md)
-* Promise概念
 
