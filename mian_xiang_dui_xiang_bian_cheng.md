@@ -97,3 +97,5 @@ xiaoming.name; // '小明'
 xiaoming.hello(); // Hello, 小明!
 ```
 
+### class继承
+
