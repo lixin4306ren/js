@@ -82,3 +82,23 @@ var div = $('#test-slide');
 div.slideUp(3000); // 在3秒钟内逐渐向上消失
 ```
 
+### fadeIn / fadeOut
+fadeIn()和fadeOut()的动画效果是淡入淡出，也就是通过不断设置DOM元素的opacity属性来实现，而fadeToggle()则根据元素是否可见来决定下一步动作：
+```
+var div = $('#test-fade');
+div.fadeOut('slow'); // 在0.6秒内淡出
+```
+
+### 自定义动画
+
+animate()，它可以实现任意动画效果，我们需要传入的参数就是DOM元素最终的CSS状态和时间，jQuery在时间段内不断调整CSS直到达到我们设定的值：
+
+```
+var div = $('#test-animate');
+div.animate({
+    opacity: 0.25,
+    width: '256px',
+    height: '256px'
+}, 3000); // 在3秒钟内CSS过渡到设定值
+```
+
