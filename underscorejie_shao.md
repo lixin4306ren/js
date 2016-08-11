@@ -81,5 +81,22 @@ var groups = _.groupBy(scores, function (x) {
 
 ## shuffle / sample
 
+shuffle()用洗牌算法随机打乱一个集合：
 
+```
+'use strict';
+// 注意每次结果都不一样：
+_.shuffle([1, 2, 3, 4, 5, 6]); // [3, 5, 4, 6, 2, 1]
 
+```
+
+sample()则是随机选择一个或多个元素：
+```
+'use strict';
+// 注意每次结果都不一样：
+// 随机选1个：
+_.sample([1, 2, 3, 4, 5, 6]); // 2
+// 随机选3个：
+_.sample([1, 2, 3, 4, 5, 6], 3); // [6, 1, 4]
+
+```
