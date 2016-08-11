@@ -55,3 +55,26 @@ Infinity
 
 注意，如果集合是Object，max()和min()只作用于value，忽略掉key。
 
+## groupBy
+groupBy()把集合的元素按照key归类，key由传入的函数返回：
+
+```
+use strict';
+
+var scores = [20, 81, 75, 40, 91, 59, 77, 66, 72, 88, 99];
+var groups = _.groupBy(scores, function (x) {
+    if (x < 60) {
+        return 'C';
+    } else if (x < 80) {
+        return 'B';
+    } else {
+        return 'A';
+    }
+});
+// 结果:
+// {
+//   A: [81, 91, 88, 99],
+//   B: [75, 77, 66, 72],
+//   C: [20, 40, 59]
+// }
+```
