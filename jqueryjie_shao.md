@@ -62,3 +62,13 @@ jQuery简单易用，容易上手。拥有轻量级的库，强大的选择器�
 DOM对象只能用DOM API调用，Jquery对象只能用Jquery API来调用。
 
 ## jQuery实现动画
+### show / hide
+直接以无参数形式调用show()和hide()，会显示和隐藏DOM元素。但是，只要传递一个时间参数进去，就变成了动画：
+
+```
+var div = $('#test-show-hide');
+div.hide(3000); // 在3秒钟内逐渐消失
+var div = $('#test-show-hide');
+div.show('slow'); // 在0.6秒钟内逐渐显示
+```
+
